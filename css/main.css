@@ -6,11 +6,15 @@ html {
     font-family: monospace;
 }
 
+body {
+    overflow: hidden;
+}
+
 .game-object {
     position: absolute;
     width: 64px;
     height: 64px;
-    transition: all 1s ease;
+    transition: all 1s linear;
 }
 
 .game-object__player-tank {
@@ -51,7 +55,18 @@ main {
     margin-left: 20px;
 }
 
+.bullet {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 1s linear;
+}
 
+.non-active {
+    display: none;
+}
 
    
 

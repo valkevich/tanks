@@ -14,7 +14,7 @@ class Map {
                     itemCoordinates.push({ top: matrixColumnIndex * 64, left: matrixRowIndex * 64 })
                 }
             })
-        })
+        })      
         return itemCoordinates;
     }
 
